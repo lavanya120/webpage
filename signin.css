@@ -1,0 +1,102 @@
+*{
+    margin-top: 1%;
+    margin-right:4%;
+    margin-left: 4%;
+    box-sizing:border-box;
+    font-family:"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+  
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 30%;
+    margin-top: 1%;
+    
+}
+#formy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:600px;
+    border:2px solid whitesmoke;
+    padding: 5%;
+    }
+#formy label{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    }
+    fieldset {
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        padding-block-start: 0;
+        padding-block-end: 0;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+        border: none;
+        min-inline-size: min-content;
+    }
+ .l2,.l3{
+        font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+    
+    }
+    .l3{
+        margin-left: 25%;
+    }
+    .l4,.l5{
+        font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+    }
+    .l4{
+        padding-top: 1%;
+        padding-bottom: -1%;
+
+    }
+    .i1,.i2{
+        border-radius: 10px;
+        border-color: lightgray;
+        padding: 8%;
+        margin-bottom: 2%;
+    
+    }
+    .i2{
+        margin-left: 25%;
+    }
+    .i1:hover,.i2:hover{
+        box-shadow: 2px 2px 5px 5px rgb(238, 208, 208);
+    }
+
+.i3,.i4{
+    margin-top: -1%;
+        width: 80%;
+        border-radius: 10px;
+        border-color: lightgray;
+        padding: 3%;
+    }
+    .i3:hover,.i4:hover{
+        box-shadow: 1px 1px 6px 6px rgb(238, 208, 208);
+    }
+    .b1{
+        background-color: black;
+        font-display: rgb(202, 198, 198);
+        border: none;
+        width:80%;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        border-radius: 30px;
+        margin:0%;
+        margin-left: 5%;
+        padding:3% 2%;
+        box-shadow:1px 1px 1px rgb(231, 226, 226);
+    }
+    .b1:hover{
+        background-color:rgb(219, 212, 212);
+    }
+.l1{
+    display:flex;
+    flex-direction: row;
+
+}
